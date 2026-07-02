@@ -1,7 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication, QLabel, QPushButton, QVBoxLayout, QWidget
 
-
 class ScoreApp(QWidget):
     def __init__(self) -> None:
         super().__init__()
